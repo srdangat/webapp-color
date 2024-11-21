@@ -24,3 +24,5 @@ spec:
           image: 324761312512.dkr.ecr.us-east-1.amazonaws.com/webapp-color:latest
           ports:
             - containerPort: 8080
+
+# kubectl set env deployment/webapp-color APP_COLOR=green
